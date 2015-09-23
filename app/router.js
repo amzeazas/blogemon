@@ -7,7 +7,11 @@ var Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('about');
-  this.route('contact');
+  this.route('contact', function() {
+    this.route('address');
+    this.route('phone');
+    this.route('email');
+  });
 });
 
 export default Router;

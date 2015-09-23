@@ -1,1 +1,16 @@
-{{outlet}}
+<center>
+  <h1>Contact Us</h1>
+</center>
+<div class="row">
+  <div class="col-md-6">
+    <p>Gotta contact us all?</p>
+    <ul>
+      <li>{{#linkTo 'contact.address'}}Address{{/linkTo}}</li>
+      <li>{{#linkTo 'contact.phone'}}Phone{{/linkTo}}</li>
+      <li>{{#linkTo 'contact.email'}}Email{{/linkTo}}</li>
+    </ul>
+  </div>
+  <div class="col-md-6">
+    {{outlet}}
+  </div>
+</div>

@@ -1,3 +1,37 @@
+body {
+  font-family: "Power Red and Green", sans-serif;
+}
+
+.jumbotron h1, .jumbotron .h1{
+  color: yellow;
+  text-shadow: 2px 0 0 blue, -2px 0 0 blue, 0 2px 0 blue, 0 -2px 0 blue, 1px 1px blue, -1px -1px 0 blue, 1px -1px 0 blue, -1px 1px 0 blue;
+}
+
+h1 small  {
+  color: white;
+}
+
 .container {
   margin-top: 55px;
+}
+
+.jumbotron-ball {
+  height: 250px;
+  max-width: 100%;
+  background-color: rgba(255, 0, 0, .7);
+  background-size: cover;
+  border-radius: 25px;
+  border: 2px solid rgba(255, 0, 0, .8);
+}
+
+.news {
+  background-color: rgba(0, 0, 0, .05);
+  overflow: hidden;
+  margin: 10px 0 10px 0;
+  float: left;
+  border-radius: 10px;
+}
+
+.info {
+  padding: 0 0 0 22px;
 }

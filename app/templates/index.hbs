@@ -1,5 +1,12 @@
-<div class="jumbotron">
-  <h1>Blogémon <small>Gotta blog 'em all!</small></h1>
+<div class="jumbotron jumbotron-ball">
+  <div class="container">
+
+  <h1 class="jv-title">Blogémon <small>Gotta blog 'em all!</small></h1>
+  </div>
 </div>
+
+{{#each model as |post|}}
+  {{post-tile post=post}}
+{{/each}}
 
 {{outlet}}

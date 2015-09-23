@@ -30,8 +30,16 @@ h1 small  {
   margin: 10px 0 10px 0;
   float: left;
   border-radius: 10px;
+  /*text-align: center;*/
 }
 
 .info {
-  padding: 0 0 0 22px;
+  padding: 22px;
+}
+
+.btn {
+  display: block;
+  float: left;
+  margin-bottom: 10px;
+  margin-right: 5px;
 }

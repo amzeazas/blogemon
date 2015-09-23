@@ -1,11 +1,13 @@
-{{yield}}
-
 <div class="col-md-4">
   <div class="news">
     <div class="info">
       <h3>{{post.title}}<small> {{post.author}}</small></h3>
-      <img src={{post.image}} alt="" height="250px" width="250px" />
+      <center>
+        <img src={{post.image}} alt="" height="250px" width="250px" />
+      </center>
       <p>{{post.text}}</p>
+      {{update-post post=post update="update"}}
+      <button class="btn btn-danger"{{action 'delete' post}}>Delete</button>
     </div>
   </div>
 </div>

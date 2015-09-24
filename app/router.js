@@ -12,6 +12,7 @@ Router.map(function() {
     this.route('phone');
     this.route('email');
   });
+  this.route('post', {path: '/post/:post_id'});
 });
 
 export default Router;

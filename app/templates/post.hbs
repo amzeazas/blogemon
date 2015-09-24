@@ -1,1 +1,7 @@
 {{single-post post=model}}
+
+{{#each model as |comment|}}
+  {{comment-tile comment=comment}}
+{{/each}}
+
+{{new-comment saveComment="saveComment" post=model}}
